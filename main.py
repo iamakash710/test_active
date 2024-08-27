@@ -2,10 +2,11 @@ from src.properties.const import const
 
 
 def test():
-    if const == "abc":
-        print (True)
+    user_input = input()
+    if user_input == "dog":
+        print ("woof")
     else:
-        print (False)
+        print ("not valid")
 
 if __name__ == "__main__":
     a = test()
