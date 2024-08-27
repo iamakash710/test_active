@@ -1,0 +1,42 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore logs directory
+logs/
+
+# Ignore environment files
+.env
+
+# Ignore IDE-specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore any other potential temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore local configuration files
+*.local
+*.env
+
+# Ignore the following directories and files if you want to:
+# - You can customize this list if you have other directories or files to ignore.
+# - Un-comment the lines below if needed.
+# 
+# build/
+# dist/
+# .coverage
+# .tox/
+# .nox/
+# .hypothesis/
+# .mypy_cache/
+# .pytest_cache/
+# .tox/
